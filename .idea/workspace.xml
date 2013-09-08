@@ -42,26 +42,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="info_video.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controlvideos/Templates/Videos/info_video.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding>
-                <element signature="e#588#623#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controlvideos/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="176" column="1" selection-start="5706" selection-end="5706" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="wsgi.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controlvideos/wsgi.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -71,19 +51,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="11" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0609319">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="requirements.txt" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="requirements.txt" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/requirements.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="13" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0">
+            <state line="8" column="23" selection-start="179" selection-end="179" vertical-scroll-proportion="0.2437276">
               <folding />
             </state>
           </provider>
@@ -111,10 +82,10 @@
         <option value="$PROJECT_DIR$/controlvideos/urls.py" />
         <option value="$PROJECT_DIR$/controlvideos/Templates/Videos/info_video.html" />
         <option value="$PROJECT_DIR$/Procfile" />
-        <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/controlvideos/settings.py" />
         <option value="$PROJECT_DIR$/controlvideos/wsgi.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
       </list>
     </option>
   </component>
@@ -197,6 +168,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controlvideos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controlvideos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controlvideos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -450,71 +443,9 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/controlvideos/Templates/form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="53" selection-start="199" selection-end="199" vertical-scroll-proportion="0.2556391">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/users/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="25" selection-start="1079" selection-end="1079" vertical-scroll-proportion="0.51792115">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controlvideos/Templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="49.03846">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controlvideos/Templates/Videos/new_video.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="0" selection-end="326" vertical-scroll-proportion="0.287594">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/videos/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="25" selection-start="632" selection-end="632" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#16#50#0" expanded="true" />
-            <marker date="1378666891560" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1378666891560" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/videos/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="59" selection-start="1557" selection-end="1557" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/videos/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="22" selection-start="2058" selection-end="2058" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#16#74#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/controlvideos/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="0" selection-start="85" selection-end="85" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controlvideos/Templates/form_upload.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="29" selection-start="882" selection-end="882" vertical-scroll-proportion="0.64849627">
           <folding />
         </state>
       </provider>
@@ -542,16 +473,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
+    <entry file="file://$PROJECT_DIR$/controlvideos/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="13" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0">
+        <state line="176" column="1" selection-start="5706" selection-end="5706" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controlvideos/settings.py">
+    <entry file="file://$PROJECT_DIR$/controlvideos/Templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="176" column="1" selection-start="5706" selection-end="5706" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="9.153846">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controlvideos/Templates/form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="53" selection-start="199" selection-end="199" vertical-scroll-proportion="-3.2692308">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controlvideos/Templates/form_upload.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="29" selection-start="882" selection-end="882" vertical-scroll-proportion="-14.384615">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controlvideos/Templates/user/noactivo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controlvideos/Templates/user/nousuario.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controlvideos/Templates/user/privado.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controlvideos/Templates/user/reset_pass.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controlvideos/Templates/user/user_login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="11" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0609319">
           <folding />
         </state>
       </provider>
@@ -563,9 +550,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="11" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0609319">
+        <state line="8" column="23" selection-start="179" selection-end="179" vertical-scroll-proportion="0.2437276">
           <folding />
         </state>
       </provider>
