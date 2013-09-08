@@ -1,0 +1,63 @@
+{# encoding=utf-8 #}
+{% extends 'base.html' %}
+{% block title %}
+    Informacion Video
+{% endblock%}
+{% block atras %}{% url 'videos.views.home' %}{% endblock atras %}
+{% block cuerpo %}
+<div class="grid">
+    <div class="row">
+        <div class="span10">
+            <a href="{% url 'videos.views.new_imagen' video.id %}" class="button">Agregar Imagen</a>
+        </div>
+        <div class="span10">
+            <h2><strong>{{ video.titulo }}</strong></h2>
+        </div>
+        {% if imagenes %}
+            <div class="span10">
+            <div class="carousel" data-role="carousel" style="height: 300px; width: 600px" data-role="carousel" data-param-effect="fade" data-param-direction="left" data-param-period="2000" data-param-markers="on">
+                <div class="slides">
+                    {% for imagen in imagenes %}
+                        <div class="slide image" id="slide1">
+                            <img src="{{ MEDIA_URL }}{{ imagen.imagen }}"/>
+                            <div class="description">
+                                {{ imagen.nombre }}
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+                <span class="control left">‹</span>
+                <span class="control right">›</span>
+            </div>
+            </div>
+        {% endif %}
+
+        <div class="span10">
+            <div class="row element-border">
+                <div class="span5">
+                    <h3><strong>Formato Video:</strong></h3>
+                    <p>{{ video.formato }}</p>
+                    <h3><strong>Cantidad:</strong></h3>
+                    {% if video.cantidad == 1 %}
+                        <p>{{ video.cantidad }} Unidad</p>
+                    {% else %}
+                        <p>{{ video.cantidad }} Unidades</p>
+                    {% endif %}
+                    <h3><strong>Tipo de Video:</strong></h3>
+                    <p>{{ video.tipo }}</p>
+                    <h3><strong>Costo Video:</strong></h3>
+                    {% if video.costo == 1 %}
+                        <p>{{ video.costo }} Boliviano</p>
+                    {% else %}
+                        <p>{{ video.costo }} Bolivianos</p>
+                    {% endif %}
+                </div>
+                <div class="span4">
+                    <h3><strong>Sinopsis:</strong></h3>
+                    <p>{{ video.sinopsis }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock cuerpo %}

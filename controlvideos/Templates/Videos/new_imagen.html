@@ -1,0 +1,9 @@
+{# encoding=utf-8 #}
+{% extends 'form_upload.html' %}
+{% block title %}
+    Nueva Imagen
+{% endblock%}
+{% block atras %}{% url 'videos.views.info_video' id_video %}{% endblock atras %}
+{% block legend %}Registrar Nueva Imagen{% endblock %}
+{% block submit %}Guardar{% endblock %}
+{% block cancel %}{% url 'videos.views.info_video' id_video %}{% endblock %}
