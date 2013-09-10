@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7d0128e-85e9-4ccd-b492-924e94fa3316" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controlvideos/Templates/base.html" afterPath="$PROJECT_DIR$/controlvideos/Templates/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controlvideos/Templates/index.html" afterPath="$PROJECT_DIR$/controlvideos/Templates/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controlvideos/Templates/Videos/info_video.html" afterPath="$PROJECT_DIR$/controlvideos/Templates/Videos/info_video.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controlvideos/Templates/Videos/option_video.html" afterPath="$PROJECT_DIR$/controlvideos/Templates/Videos/option_video.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/videos/views.py" afterPath="$PROJECT_DIR$/videos/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controlvideos/settings.py" afterPath="$PROJECT_DIR$/controlvideos/settings.py" />
     </list>
     <ignored path="controlvideos.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -72,10 +67,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/videos/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="72" selection-start="1657" selection-end="1657" vertical-scroll-proportion="1.0877514">
+            <state line="40" column="72" selection-start="1657" selection-end="1657" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/controlvideos/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="168" column="0" selection-start="5525" selection-end="5525" vertical-scroll-proportion="0.81352836">
               <folding />
             </state>
           </provider>
@@ -109,12 +113,12 @@
         <option value="$PROJECT_DIR$/videos/models.py" />
         <option value="$PROJECT_DIR$/controlvideos/Templates/Videos/add_actor.html" />
         <option value="$PROJECT_DIR$/controlvideos/urls.py" />
-        <option value="$PROJECT_DIR$/controlvideos/settings.py" />
         <option value="$PROJECT_DIR$/controlvideos/Templates/Videos/info_video.html" />
         <option value="$PROJECT_DIR$/controlvideos/Templates/index.html" />
         <option value="$PROJECT_DIR$/videos/views.py" />
         <option value="$PROJECT_DIR$/controlvideos/Templates/base.html" />
         <option value="$PROJECT_DIR$/controlvideos/Templates/Videos/option_video.html" />
+        <option value="$PROJECT_DIR$/controlvideos/settings.py" />
       </list>
     </option>
   </component>
@@ -556,13 +560,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controlvideos/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="159" column="1" selection-start="5205" selection-end="5205" vertical-scroll-proportion="0.59963435">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/controlvideos/Templates/Videos/new_actor.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="26" selection-start="188" selection-end="188" vertical-scroll-proportion="0.19101124">
@@ -614,7 +611,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/videos/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="72" selection-start="1657" selection-end="1657" vertical-scroll-proportion="1.0877514">
+        <state line="40" column="72" selection-start="1657" selection-end="1657" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controlvideos/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="168" column="0" selection-start="5525" selection-end="5525" vertical-scroll-proportion="0.81352836">
           <folding />
         </state>
       </provider>
