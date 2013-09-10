@@ -37,7 +37,7 @@ def new_video(request):
     return render_to_response('Videos/new_video.html', {'formulario' :formulario}, context_instance=RequestContext(request))
 
 def option_video(request):
-    videos = Videos.objects.filter(cantidad__gte = 1)
+    videos = Videos.objects.filter(cantidad__gte = 1, user=request.user)
     return render_to_response('Videos/option_video.html', {'videos' :videos}, context_instance=RequestContext(request))
 
 def info_video(request, id_video):
