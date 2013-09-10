@@ -3,12 +3,18 @@
 {% block title %}
     Informacion Video
 {% endblock%}
-{% block atras %}{% url 'videos.views.home' %}{% endblock atras %}
+{% block titulo %}
+    <h1>Video<small>Información</small></h1>
+{% endblock titulo %}
+{% block atras %}{% url 'videos.views.option_video' %}{% endblock atras %}
 {% block cuerpo %}
 <div class="grid">
     <div class="row">
-        <div class="span10">
+        <div class="span4">
             <a href="{% url 'videos.views.new_imagen' video.id %}" class="button">Agregar Imagen</a>
+        </div>
+        <div class="span4">
+            <a href="{% url 'videos.views.show_actores' video.id %}" class="button">Agregar Actores</a>
         </div>
         <div class="span10">
             <h2><strong>{{ video.titulo }}</strong></h2>
@@ -31,7 +37,20 @@
             </div>
             </div>
         {% endif %}
-
+        <div class="span10">
+            <h2>Actores Principales</h2>
+            <div class="row">
+                {% for actor in actores %}
+                    <div class="span4">
+                        <p class="body-secondary-text">{{ actor.nombre }}</p>
+                    </div>
+                {% empty %}
+                    <div class="span10">
+                        <h3>No existen Actores Asignados a la Pelicula</h3>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
         <div class="span10">
             <div class="row element-border">
                 <div class="span5">

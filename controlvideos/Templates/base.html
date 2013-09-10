@@ -53,11 +53,13 @@
                         <a href="">Buscar Videos</a>
                     </li>
                     <li data-role="dropdown">
-                        <a href="#">Opciones Video</a>
+                        <a href="#">Videos</a>
                         <ul class="dropdown-menu">
                             <li>
                                 <a href="{% url 'videos.views.new_video' %}">Registrar</a>
                             </li>
+                            <li class="divider"></li>
+                            <li><a href="{% url 'videos.views.option_video' %}">Opciones</a></li>
                         </ul>
                     </li>
 
@@ -69,7 +71,9 @@
 <div class="page secondary">
     <div class="page-header">
         <div class="page-header-content">
-            <h1>Videos<small>En la Tienda</small></h1>
+            {% block titulo %}
+                <h1>Videos<small>En la Tienda</small></h1>
+            {% endblock titulo %}
             <a href="{% block atras %}/{% endblock atras %}" class="back-button big page-back"></a>
         </div>
     </div>

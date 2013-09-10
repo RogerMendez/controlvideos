@@ -1,0 +1,36 @@
+{# encoding=utf-8 #}
+{% extends 'base.html' %}
+{% block title %}
+    Opciones Video
+{% endblock%}
+{% block titulo %}
+    <h1>Video<small>Opciones</small></h1>
+{% endblock titulo %}
+{% block atras %}{% url 'videos.views.home' %}{% endblock atras %}
+{% block cuerpo %}
+<div class="grid">
+    <div class="row">
+        <table class="hovered">
+            <thead>
+                <tr>
+                    <th>Titulo</th>
+                    <th>Tipo</th>
+                    <th>Costo</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for video in videos %}
+                    <tr>
+                        <td>{{ video.titulo }}</td>
+                        <td>{{ video.tipo }}</td>
+                        <td>{{ video.costo }}</td>
+                        <td><a href="{% url 'videos.views.info_video' video.id %}">Información</a></td>
+                    </tr>
+                {% endfor %}
+
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endblock cuerpo %}

@@ -39,3 +39,17 @@ class Imagen(models.Model):
     class Meta:
         ordering = ['fecha_registro']
         verbose_name_plural = "Imagenes"
+
+class Actor(models.Model):
+    nombre = models.CharField(max_length=100, verbose_name='Nombre de Actor')
+    def __unicode__(self):
+        return self.nombre
+    class Meta:
+        ordering = ['nombre']
+        verbose_name_plural = 'Actores'
+
+class Actor_Video(models.Model):
+    video = models.ForeignKey(Videos)
+    actor = models.ForeignKey(Actor)
+    def __unicode__(self):
+        return self.actor

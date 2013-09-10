@@ -1,0 +1,9 @@
+{# encoding=utf-8 #}
+{% extends 'form.html' %}
+{% block title %}
+    Nuevo Actor
+{% endblock%}
+{% block atras %}{% url 'videos.views.home' %}{% endblock atras %}
+{% block legend %}Registrar Nuevo Actor{% endblock %}
+{% block submit %}Registrar{% endblock %}
+{% block formcancelar %}{% url 'videos.views.home' %}{% endblock %}

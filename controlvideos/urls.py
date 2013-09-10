@@ -21,7 +21,10 @@ urlpatterns = patterns('',
 
     #VIDEOS
     url(r'^video/new/$', 'videos.views.new_video'),
+    url(r'^video/option/$', 'videos.views.option_video'),
     url(r'^video/info/(?P<id_video>\d+)/$', 'videos.views.info_video'),
     url(r'^video/imagen/new/(?P<id_video>\d+)/$', 'videos.views.new_imagen'),
-
+    url(r'^actor/new/(?P<id_video>\d+)/$', 'videos.views.new_actor'),
+    url(r'^actor/show/(?P<id_video>\d+)/$', 'videos.views.show_actores'),
+    url(r'^actor/add/(?P<id_video>\d+)/(?P<id_actor>\d+)/$', 'videos.views.add_actor'),
 )

@@ -3,7 +3,7 @@ from django.forms import ModelForm
 from django import forms
 from django.forms.util import ErrorList
 
-from videos.models import Videos, Imagen
+from videos.models import Videos, Imagen, Actor
 
 class DivErrorList(ErrorList):
     def __unicode__(self):
@@ -22,3 +22,7 @@ class ImagenForm(ModelForm):
     class Meta:
         model = Imagen
         exclude = ['video']
+
+class ActorForm(ModelForm):
+    class Meta:
+        model = Actor
