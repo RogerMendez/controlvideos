@@ -6,16 +6,24 @@
 {% block titulo %}
     <h1>Video<small>Información</small></h1>
 {% endblock titulo %}
-{% block atras %}{% url 'videos.views.option_video' %}{% endblock atras %}
+{% block atras %}
+    {% if user.is_authenticated %}
+        {% url 'videos.views.option_video' %}
+    {% else %}
+        {% url 'videos.views.home' %}
+    {% endif %}
+{% endblock atras %}
 {% block cuerpo %}
 <div class="grid">
     <div class="row">
-        <div class="span4">
-            <a href="{% url 'videos.views.new_imagen' video.id %}" class="button">Agregar Imagen</a>
-        </div>
-        <div class="span4">
-            <a href="{% url 'videos.views.show_actores' video.id %}" class="button">Agregar Actores</a>
-        </div>
+        {% if user.is_authenticated %}
+            <div class="span4">
+                <a href="{% url 'videos.views.new_imagen' video.id %}" class="button">Agregar Imagen</a>
+            </div>
+            <div class="span4">
+                <a href="{% url 'videos.views.show_actores' video.id %}" class="button">Agregar Actores</a>
+            </div>
+        {% endif %}
         <div class="span10">
             <h2><strong>{{ video.titulo }}</strong></h2>
         </div>

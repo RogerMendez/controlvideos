@@ -1,0 +1,35 @@
+{# encoding=utf-8 #}
+{% extends 'base.html' %}
+{% block title %}
+    Informacion Video
+{% endblock%}
+{% block titulo %}
+    <h1>Video<small>Información</small></h1>
+{% endblock titulo %}
+{% block atras %}{% url 'videos.views.home' %}{% endblock atras %}
+{% block cuerpo %}
+<div class="grid">
+    <div class="row">
+        <div class="span12">
+            <div class="row">
+                {% for video in videos %}
+                    <div class="span5">
+                        <a href="{% url 'videos.views.info_video' video.id %}">
+                            <div class="notices">
+                                <div class="bg-color-green">
+                                    <div class="notice-icon"><img src="{{ STATIC_URL }}images/lock-open.png"></div>
+                                    <div class="notice-header fg-color-white">{{ video.titulo }}</div>
+                                    <div class="notice-text">
+                                        <p>{{ video.formato }}</p>
+                                        <p>{{ video.costo }} Bolivianos</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock cuerpo %}

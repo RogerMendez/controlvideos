@@ -8,7 +8,8 @@ from videos.models import Videos, Imagen, Actor, Actor_Video
 
 
 def home(request):
-    return render_to_response('base.html', context_instance=RequestContext(request))
+    videos = Videos.objects.filter(cantidad__gte = 1)
+    return render_to_response('index.html',{'videos' :videos}, context_instance=RequestContext(request))
 
 def new_video(request):
     if request.method =='POST' :

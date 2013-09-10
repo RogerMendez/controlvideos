@@ -2,18 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7d0128e-85e9-4ccd-b492-924e94fa3316" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controlvideos/Templates/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controlvideos/Templates/base.html" afterPath="$PROJECT_DIR$/controlvideos/Templates/base.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controlvideos/Templates/Videos/info_video.html" afterPath="$PROJECT_DIR$/controlvideos/Templates/Videos/info_video.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controlvideos/settings.py" afterPath="$PROJECT_DIR$/controlvideos/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/videos/views.py" afterPath="$PROJECT_DIR$/videos/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="controlvideos.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/models.py" changelist="c7d0128e-85e9-4ccd-b492-924e94fa3316" time="1378689880511" ignored="false" />
     <file path="/forms.py" changelist="c7d0128e-85e9-4ccd-b492-924e94fa3316" time="1378683280389" ignored="false" />
-    <file path="/base.html" changelist="c7d0128e-85e9-4ccd-b492-924e94fa3316" time="1378785297259" ignored="false" />
-    <file path="/views.py" changelist="c7d0128e-85e9-4ccd-b492-924e94fa3316" time="1378783992709" ignored="false" />
+    <file path="/base.html" changelist="c7d0128e-85e9-4ccd-b492-924e94fa3316" time="1378785382597" ignored="false" />
+    <file path="/views.py" changelist="c7d0128e-85e9-4ccd-b492-924e94fa3316" time="1378785996988" ignored="false" />
     <file path="/urls.py" changelist="c7d0128e-85e9-4ccd-b492-924e94fa3316" time="1378783327518" ignored="false" />
     <file path="/form.html" changelist="c7d0128e-85e9-4ccd-b492-924e94fa3316" time="1378601900981" ignored="false" />
     <file path="/new_video.html" changelist="c7d0128e-85e9-4ccd-b492-924e94fa3316" time="1378662377452" ignored="false" />
-    <file path="/settings.py" changelist="c7d0128e-85e9-4ccd-b492-924e94fa3316" time="1378670976070" ignored="false" />
+    <file path="/settings.py" changelist="c7d0128e-85e9-4ccd-b492-924e94fa3316" time="1378785531111" ignored="false" />
     <file path="/privado.html" changelist="c7d0128e-85e9-4ccd-b492-924e94fa3316" time="1378598155353" ignored="false" />
     <file path="$PROJECT_DIR$/../sapec/sapec/Templates/base.html" changelist="c7d0128e-85e9-4ccd-b492-924e94fa3316" time="1378598641358" ignored="false" />
     <file path="/site.css" changelist="c7d0128e-85e9-4ccd-b492-924e94fa3316" time="1378661879046" ignored="false" />
@@ -21,7 +26,7 @@
     <file path="/modern.css" changelist="c7d0128e-85e9-4ccd-b492-924e94fa3316" time="1378662255051" ignored="false" />
     <file path="/Dummy.txt" changelist="c7d0128e-85e9-4ccd-b492-924e94fa3316" time="1378781912675" ignored="false" />
     <file path="/form_upload.html" changelist="c7d0128e-85e9-4ccd-b492-924e94fa3316" time="1378662880518" ignored="false" />
-    <file path="/info_video.html" changelist="c7d0128e-85e9-4ccd-b492-924e94fa3316" time="1378784387263" ignored="false" />
+    <file path="/info_video.html" changelist="c7d0128e-85e9-4ccd-b492-924e94fa3316" time="1378786445327" ignored="false" />
     <file path="/new_imagen.html" changelist="c7d0128e-85e9-4ccd-b492-924e94fa3316" time="1378667306246" ignored="false" />
     <file path="$PROJECT_DIR$/../sapec/personal/views.py" changelist="c7d0128e-85e9-4ccd-b492-924e94fa3316" time="1378667622095" ignored="false" />
     <file path="/Procfile" changelist="c7d0128e-85e9-4ccd-b492-924e94fa3316" time="1378668994361" ignored="false" />
@@ -29,6 +34,7 @@
     <file path="/new_actor.html" changelist="c7d0128e-85e9-4ccd-b492-924e94fa3316" time="1378689780389" ignored="false" />
     <file path="/add_actor.html" changelist="c7d0128e-85e9-4ccd-b492-924e94fa3316" time="1378782250693" ignored="false" />
     <file path="/option_video.html" changelist="c7d0128e-85e9-4ccd-b492-924e94fa3316" time="1378783664129" ignored="false" />
+    <file path="/index.html" changelist="c7d0128e-85e9-4ccd-b492-924e94fa3316" time="1378786293916" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,36 +75,34 @@
       <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/videos/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="34" selection-start="2086" selection-end="2086" vertical-scroll-proportion="0.0">
+            <state line="12" column="0" selection-start="486" selection-end="486" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="info_video.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controlvideos/Templates/Videos/info_video.html">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controlvideos/Templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="12" selection-start="2705" selection-end="2705" vertical-scroll-proportion="-16.692308">
-              <folding>
-                <element signature="e#828#863#0" expanded="true" />
-              </folding>
+            <state line="17" column="49" selection-start="584" selection-end="584" vertical-scroll-proportion="-11.115385">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="settings.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/controlvideos/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="166" column="23" selection-start="5466" selection-end="5466" vertical-scroll-proportion="0.0">
+            <state line="159" column="0" selection-start="5204" selection-end="5204" vertical-scroll-proportion="0.5321101">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controlvideos/Templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="68" column="25" selection-start="3827" selection-end="3827" vertical-scroll-proportion="0.6165413">
+            <state line="54" column="26" selection-start="3082" selection-end="3103" vertical-scroll-proportion="-3.4615386">
               <folding />
             </state>
           </provider>
@@ -131,7 +135,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/controlvideos/Templates/Videos/new_imagen.html" />
         <option value="$PROJECT_DIR$/controlvideos/Templates/form_upload.html" />
         <option value="$PROJECT_DIR$/Procfile" />
         <option value="$PROJECT_DIR$/.gitignore" />
@@ -143,10 +146,11 @@
         <option value="$PROJECT_DIR$/controlvideos/Templates/Videos/add_actor.html" />
         <option value="$PROJECT_DIR$/controlvideos/urls.py" />
         <option value="$PROJECT_DIR$/controlvideos/Templates/Videos/option_video.html" />
+        <option value="$PROJECT_DIR$/controlvideos/Templates/base.html" />
         <option value="$PROJECT_DIR$/videos/views.py" />
+        <option value="$PROJECT_DIR$/controlvideos/Templates/index.html" />
         <option value="$PROJECT_DIR$/controlvideos/Templates/Videos/info_video.html" />
         <option value="$PROJECT_DIR$/controlvideos/settings.py" />
-        <option value="$PROJECT_DIR$/controlvideos/Templates/base.html" />
       </list>
     </option>
   </component>
@@ -243,28 +247,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controlvideos" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controlvideos" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controlvideos" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Videos" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -525,13 +507,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/controlvideos/Templates/user/user_login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="11" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0609319" />
@@ -605,30 +580,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/videos/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="34" selection-start="2086" selection-end="2086" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controlvideos/Templates/Videos/info_video.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="12" selection-start="2705" selection-end="2705" vertical-scroll-proportion="-16.692308">
-          <folding>
-            <element signature="e#828#863#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controlvideos/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="166" column="23" selection-start="5466" selection-end="5466" vertical-scroll-proportion="0.0">
+        <state line="12" column="0" selection-start="486" selection-end="486" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controlvideos/Templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="25" selection-start="3827" selection-end="3827" vertical-scroll-proportion="0.6165413">
+        <state line="54" column="26" selection-start="3082" selection-end="3103" vertical-scroll-proportion="-3.4615386">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controlvideos/Templates/Videos/info_video.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="33" selection-start="334" selection-end="334" vertical-scroll-proportion="0.39306358">
+          <folding>
+            <element signature="e#1025#1060#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controlvideos/Templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="49" selection-start="584" selection-end="584" vertical-scroll-proportion="-11.115385">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controlvideos/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="159" column="0" selection-start="5204" selection-end="5204" vertical-scroll-proportion="0.5321101">
           <folding />
         </state>
       </provider>
