@@ -52,17 +52,18 @@
                     <li>
                         <a href="">Buscar Videos</a>
                     </li>
-                    <li data-role="dropdown">
-                        <a href="#">Videos</a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a href="{% url 'videos.views.new_video' %}">Registrar</a>
-                            </li>
-                            <li class="divider"></li>
-                            <li><a href="{% url 'videos.views.option_video' %}">Opciones</a></li>
-                        </ul>
-                    </li>
-
+                    {% if user.is_authenticated %}
+                        <li data-role="dropdown">
+                            <a href="#">Videos</a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="{% url 'videos.views.new_video' %}">Registrar</a>
+                                </li>
+                                <li class="divider"></li>
+                                <li><a href="{% url 'videos.views.option_video' %}">Opciones</a></li>
+                            </ul>
+                        </li>
+                    {% endif %}
                 </ul>
             </div>
         </div>
