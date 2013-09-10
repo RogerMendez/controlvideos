@@ -2,29 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7d0128e-85e9-4ccd-b492-924e94fa3316" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/controlvideos/Templates/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controlvideos/Templates/base.html" afterPath="$PROJECT_DIR$/controlvideos/Templates/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controlvideos/Templates/Videos/info_video.html" afterPath="$PROJECT_DIR$/controlvideos/Templates/Videos/info_video.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controlvideos/settings.py" afterPath="$PROJECT_DIR$/controlvideos/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/videos/views.py" afterPath="$PROJECT_DIR$/videos/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="controlvideos.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/models.py" changelist="c7d0128e-85e9-4ccd-b492-924e94fa3316" time="1378689880511" ignored="false" />
     <file path="/forms.py" changelist="c7d0128e-85e9-4ccd-b492-924e94fa3316" time="1378683280389" ignored="false" />
-    <file path="/base.html" changelist="c7d0128e-85e9-4ccd-b492-924e94fa3316" time="1378785382597" ignored="false" />
+    <file path="/base.html" changelist="c7d0128e-85e9-4ccd-b492-924e94fa3316" time="1378845971127" ignored="false" />
     <file path="/views.py" changelist="c7d0128e-85e9-4ccd-b492-924e94fa3316" time="1378785996988" ignored="false" />
     <file path="/urls.py" changelist="c7d0128e-85e9-4ccd-b492-924e94fa3316" time="1378783327518" ignored="false" />
     <file path="/form.html" changelist="c7d0128e-85e9-4ccd-b492-924e94fa3316" time="1378601900981" ignored="false" />
     <file path="/new_video.html" changelist="c7d0128e-85e9-4ccd-b492-924e94fa3316" time="1378662377452" ignored="false" />
-    <file path="/settings.py" changelist="c7d0128e-85e9-4ccd-b492-924e94fa3316" time="1378785531111" ignored="false" />
+    <file path="/settings.py" changelist="c7d0128e-85e9-4ccd-b492-924e94fa3316" time="1378844719498" ignored="false" />
     <file path="/privado.html" changelist="c7d0128e-85e9-4ccd-b492-924e94fa3316" time="1378598155353" ignored="false" />
     <file path="$PROJECT_DIR$/../sapec/sapec/Templates/base.html" changelist="c7d0128e-85e9-4ccd-b492-924e94fa3316" time="1378598641358" ignored="false" />
     <file path="/site.css" changelist="c7d0128e-85e9-4ccd-b492-924e94fa3316" time="1378661879046" ignored="false" />
     <file path="/a.dummy" changelist="c7d0128e-85e9-4ccd-b492-924e94fa3316" time="1378661976934" ignored="false" />
     <file path="/modern.css" changelist="c7d0128e-85e9-4ccd-b492-924e94fa3316" time="1378662255051" ignored="false" />
-    <file path="/Dummy.txt" changelist="c7d0128e-85e9-4ccd-b492-924e94fa3316" time="1378781912675" ignored="false" />
+    <file path="/Dummy.txt" changelist="c7d0128e-85e9-4ccd-b492-924e94fa3316" time="1378844413594" ignored="false" />
     <file path="/form_upload.html" changelist="c7d0128e-85e9-4ccd-b492-924e94fa3316" time="1378662880518" ignored="false" />
     <file path="/info_video.html" changelist="c7d0128e-85e9-4ccd-b492-924e94fa3316" time="1378786445327" ignored="false" />
     <file path="/new_imagen.html" changelist="c7d0128e-85e9-4ccd-b492-924e94fa3316" time="1378667306246" ignored="false" />
@@ -84,25 +81,16 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controlvideos/Templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="49" selection-start="584" selection-end="584" vertical-scroll-proportion="-11.115385">
+            <state line="17" column="49" selection-start="584" selection-end="584" vertical-scroll-proportion="-5.5">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/controlvideos/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="159" column="0" selection-start="5204" selection-end="5204" vertical-scroll-proportion="0.5321101">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="base.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/controlvideos/Templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="26" selection-start="3082" selection-end="3103" vertical-scroll-proportion="-3.4615386">
+            <state line="67" column="29" selection-start="3806" selection-end="3806" vertical-scroll-proportion="1.0187266">
               <folding />
             </state>
           </provider>
@@ -146,11 +134,11 @@
         <option value="$PROJECT_DIR$/controlvideos/Templates/Videos/add_actor.html" />
         <option value="$PROJECT_DIR$/controlvideos/urls.py" />
         <option value="$PROJECT_DIR$/controlvideos/Templates/Videos/option_video.html" />
-        <option value="$PROJECT_DIR$/controlvideos/Templates/base.html" />
         <option value="$PROJECT_DIR$/videos/views.py" />
         <option value="$PROJECT_DIR$/controlvideos/Templates/index.html" />
         <option value="$PROJECT_DIR$/controlvideos/Templates/Videos/info_video.html" />
         <option value="$PROJECT_DIR$/controlvideos/settings.py" />
+        <option value="$PROJECT_DIR$/controlvideos/Templates/base.html" />
       </list>
     </option>
   </component>
@@ -186,6 +174,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -252,20 +241,19 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../sapec" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -298,29 +286,6 @@
       <option name="PARAMETERS" value="" />
       <method />
     </configuration>
-    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="controlvideos" />
-      <option name="launchJavascriptDebuger" value="false" />
-      <option name="port" value="8000" />
-      <option name="host" value="" />
-      <option name="additionalOptions" value="" />
-      <option name="browserUrl" value="" />
-      <option name="runTestServer" value="false" />
-      <option name="runNoReload" value="false" />
-      <option name="useCustomRunCommand" value="false" />
-      <option name="customRunCommand" value="" />
-      <method />
-    </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -342,6 +307,29 @@
       <option name="PUREUNITTEST" value="true" />
       <option name="PARAMS" value="" />
       <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="controlvideos" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -431,7 +419,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.275" sideWeight="0.67064846" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27954546" sideWeight="0.67064846" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -585,32 +573,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controlvideos/Templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="26" selection-start="3082" selection-end="3103" vertical-scroll-proportion="-3.4615386">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/controlvideos/Templates/Videos/info_video.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="33" selection-start="334" selection-end="334" vertical-scroll-proportion="0.39306358">
           <folding>
-            <element signature="e#1025#1060#0" expanded="true" />
+            <element signature="e#1025#1060#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controlvideos/Templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="49" selection-start="584" selection-end="584" vertical-scroll-proportion="-11.115385">
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controlvideos/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="159" column="0" selection-start="5204" selection-end="5204" vertical-scroll-proportion="0.5321101">
+        <state line="159" column="1" selection-start="5205" selection-end="5205" vertical-scroll-proportion="0.59963435">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controlvideos/Templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="49" selection-start="584" selection-end="584" vertical-scroll-proportion="-5.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controlvideos/Templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="29" selection-start="3806" selection-end="3806" vertical-scroll-proportion="1.0187266">
           <folding />
         </state>
       </provider>

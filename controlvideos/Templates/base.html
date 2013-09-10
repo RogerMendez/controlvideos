@@ -63,10 +63,14 @@
                                 <li><a href="{% url 'videos.views.option_video' %}">Opciones</a></li>
                             </ul>
                         </li>
+                        <li>
+                            <a href="{% url 'users.views.loguet_out' %}">Cerrar Sesión</a>
+                        </li>
+                    {% else %}
+                        <li>
+                            <a href="{% url 'users.views.loguet_in' %}">Iniciar Sesión</a>
+                        </li>
                     {% endif %}
-                    <li>
-                        <a href="{% url 'users.views.loguet_in' %}">Iniciar Sesión</a>
-                    </li>
                 </ul>
             </div>
         </div>
