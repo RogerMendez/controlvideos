@@ -20,7 +20,7 @@ class Videos(models.Model):
     )
     tipo = models.CharField(max_length=20, choices=tipo_video, verbose_name='Seleccione El Tipo de Video')
     sinopsis = models.TextField(blank=True, null=True, verbose_name='Ingrese La Sinopsis Del Video')
-    costo = models.FloatField(verbose_name='Registre El Consto Del Video')
+    costo = models.FloatField(verbose_name='Registre El Costo Del Video')
     fecha_registro = models.DateField(auto_now_add=True)
     user = models.ForeignKey(User)
     def __unicode__(self):

@@ -1,0 +1,58 @@
+{% extends "base.html" %}
+{% block title %}Seleccionar Videos{% endblock title %}
+{% block titulo %}
+	<h1>Videos<small>Seleccionar</small></h1>
+{% endblock titulo %}
+
+{% block cuerpo %}
+<div class="grid">
+    <div class="row">
+        <div class="span12">
+            <div class="row">
+            	<div class="span6">
+            		<h3><strong>Seleccione Un Video</strong></h3>
+	                {% for video in videos %}
+	                    <div class="span5">
+	                        <a href="{% url 'prestamo.views.add_video' prestamo_id video.id %}">
+	                            <div class="notices">
+	                                <div class="{% cycle 'bg-color-green' 'bg-color-blue' 'bg-color-red' 'bg-color-greenLight' 'bg-color-blueDark' 'bg-color-greenDark' 'bg-color-yellow' 'bg-color-orange' 'bg-color-orangeDark' 'bg-color-pink' 'bg-color-pinkDark' 'bg-color-purple' 'bg-color-darken' 'bg-color-grayDark' 'bg-color-magenta' 'bg-color-teal' 'bg-color-redLight' %}">
+	                                    <div class="notice-icon"><img src="{{ STATIC_URL }}images/shield-user.png"></div>
+	                                    <div class="notice-header fg-color-white">{{ video.titulo }}</div>
+	                                    <div class="notice-text">
+	                                        <p>{{ video.formato }}</p>
+	                                        <p>{{ video.costo }} Bolivianos</p>
+	                                    </div>
+	                                </div>
+	                            </div>
+	                        </a>
+	                    </div>
+	                {% endfor %}
+                </div>
+                <div class="span6">
+                	<h3><strong>Videos Seleccionados</strong></h3>
+                	{% for video in videos_prestamo %}
+                		<div class="span5">
+	                        <a href="{% url 'prestamo.views.delete_video' prestamo_id video.id %}">
+	                            <div class="notices">
+	                                <div class="{% cycle 'bg-color-pinkDark' 'bg-color-purple' 'bg-color-darken' 'bg-color-grayDark' 'bg-color-magenta' 'bg-color-teal' 'bg-color-redLight' 'bg-color-green' 'bg-color-blue' 'bg-color-red' 'bg-color-greenLight' 'bg-color-blueDark' 'bg-color-greenDark' 'bg-color-yellow' 'bg-color-orange' 'bg-color-orangeDark' 'bg-color-pink' %}">
+	                                    <div class="notice-icon"><img src="{{ STATIC_URL }}images/shield-user.png"></div>
+	                                    <div class="notice-header fg-color-white">{{ video.titulo }}</div>
+	                                    <div class="notice-text">
+	                                        <p>{{ video.formato }}</p>
+	                                        <p>{{ video.costo }} Bolivianos</p>
+	                                    </div>
+	                                </div>
+	                            </div>
+	                        </a>
+	                    </div>
+                    {% empty %}
+                    	<h3>No Tiene Ningun Video Agregado</h3>
+                	{% endfor %}
+                	<div class="span3"><a href="{% url 'prestamo.views.cancel_prestamo' prestamo_id %}" class="button">Cancelar</a></div>
+                	<div class="span3"><a href="{% url 'prestamo.views.select_cliente' prestamo_id %}" class="button bg-color-green">Continuar</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock cuerpo %}

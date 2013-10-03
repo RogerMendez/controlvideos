@@ -67,7 +67,7 @@
                             <a href="#">Prestamos</a>
                             <ul class="dropdown-menu">
                                 <li>
-                                    <a href="">Registrar</a>
+                                    <a href="{% url 'prestamo.views.new_prestamo' 0 %}">Registrar</a>
                                 </li>
                                 <li class="divider"></li>
                                 <li>
@@ -80,6 +80,14 @@
                             <ul class="dropdown-menu">
                                 <li>
                                     <a href="">Registrar</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li data-role="dropdown">
+                            <a href="#">Clientes</a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="{% url 'ventas.views.new_cliente' %}">Registrar</a>
                                 </li>
                             </ul>
                         </li>
@@ -109,12 +117,8 @@
     <div class="page-region">
         <div class="page-region-content">
             <div class="grid">
-                <div class="row">
-                    <div class="span10">
-                        {% block cuerpo %}
-                        {% endblock cuerpo %}
-                    </div>
-                </div>
+                {% block cuerpo %}
+                {% endblock cuerpo %}
             </div>
         </div>
     </div>
@@ -123,7 +127,7 @@
         <div class="nav-bar">
             <div class="nav-bar-inner padding10">
                 <span class="element">
-                    2013, Videos &copy; por <a class="fg-color-white" href="mailto:Roger.Mendez,R@gmail.com">Roger Mendez</a>
+                    2013, Videos &copy; por <a class="fg-color-white" href="mailto:Roger.Mendez.R@gmail.com">Roger Mendez</a>
                 </span>
             </div>
         </div>

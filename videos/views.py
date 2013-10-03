@@ -8,7 +8,10 @@ from videos.models import Videos, Imagen, Actor, Actor_Video
 
 
 def home(request):
-    videos = Videos.objects.filter(cantidad__gte = 1)
+    if request.user.is_anonymous():
+        videos = Videos.objects.filter(cantidad__gte = 1)
+    else:
+        videos = Videos.objects.filter(cantidad__gte = 1, user = request.user)
     return render_to_response('index.html',{'videos' :videos}, context_instance=RequestContext(request))
 
 def new_video(request):

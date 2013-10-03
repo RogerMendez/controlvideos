@@ -27,4 +27,15 @@ urlpatterns = patterns('',
     url(r'^actor/new/(?P<id_video>\d+)/$', 'videos.views.new_actor'),
     url(r'^actor/show/(?P<id_video>\d+)/$', 'videos.views.show_actores'),
     url(r'^actor/add/(?P<id_video>\d+)/(?P<id_actor>\d+)/$', 'videos.views.add_actor'),
+
+    #CLIENTES
+    url(r'^cliente/new/$', 'ventas.views.new_cliente'),
+
+    #PRESTAMO
+    url(r'^prestamo/videos/add/(?P<prestamo>\d+)/$','prestamo.views.new_prestamo'),
+    url(r'^prestamo/add/(?P<prestamo_id>\d+)/(?P<video_id>\d+)/$','prestamo.views.add_video'),
+    url(r'^prestamo/delete/(?P<prestamo_id>\d+)/(?P<video_id>\d+)/$','prestamo.views.delete_video'),
+    url(r'^prestamo/cliente/select/(?P<prestamo_id>\d+)/$','prestamo.views.select_cliente'),
+    url(r'^prestamo/confirm/(?P<prestamo_id>\d+)/(?P<cliente_id>\d+)/$','prestamo.views.confirm_prestamo'),
+    url(r'^prestamo/cancel/(?P<prestamo_id>\d+)/$','prestamo.views.cancel_prestamo'),
 )

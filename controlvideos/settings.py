@@ -125,6 +125,8 @@ INSTALLED_APPS = (
     'dajax',
     'videos',
     'users',
+    'ventas',
+    'prestamo',
 )
 
 # A sample logging configuration. The only tangible logging
